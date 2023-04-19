@@ -13,7 +13,7 @@
             outlined
             stack-label
             bottom-slots
-            label="Data/Hora Agendamento"
+            label="Data/Hora Agendamiento"
             mode="date"
             color="primary"
             format24h
@@ -26,7 +26,7 @@
             outlined
             stack-label
             bottom-slots
-            label="Data/Hora Agendamento"
+            label="Data/Hora Agendamiento"
             mode="date"
             color="primary"
             format24h
@@ -56,7 +56,7 @@
             flat
             color="primary"
             icon="refresh"
-            label="Atualizar"
+            label="Actualizar"
             @click="getDashData"
           />
 
@@ -76,7 +76,7 @@
             >
               <q-card-section class="text-center ">
                 <p class="text-h4 text-bold text-center"> {{ ticketsAndTimes.qtd_total_atendimentos }} </p>
-                Total Atendimentos
+                Total de Usuarios
               </q-card-section>
             </q-card>
           </div>
@@ -89,7 +89,7 @@
             >
               <q-card-section class="text-center">
                 <p class="text-h4 text-bold text-center"> {{ ticketsAndTimes.qtd_demanda_ativa }} </p>
-                Ativo
+                Activo
               </q-card-section>
             </q-card>
           </div>
@@ -102,7 +102,7 @@
             >
               <q-card-section class="text-center">
                 <p class="text-h4 text-bold text-center"> {{ ticketsAndTimes.qtd_demanda_receptiva }} </p>
-                Receptivo
+                Recibidos
               </q-card-section>
             </q-card>
           </div>
@@ -115,7 +115,7 @@
             >
               <q-card-section class="text-center">
                 <p class="text-h4 text-bold text-center"> {{ ticketsAndTimes.new_contacts }} </p>
-                Novos Contatos
+                Nuevos Contactos
               </q-card-section>
             </q-card>
           </div>
@@ -127,7 +127,7 @@
             >
               <q-card-section class="text-center">
                 <p class="text-h5 text-bold text-center"> {{ cTmaFormat }} </p>
-                Tempo Médio Atendimento (TMA)
+                Tempo Médio de Atención (TMA)
               </q-card-section>
             </q-card>
           </div>
@@ -139,7 +139,7 @@
             >
               <q-card-section class="text-center">
                 <p class="text-h5 text-bold text-center"> {{ cTmeFormat }} </p>
-                Tempo Médio 1º Resposta
+                Tiempo Medio 1º Respuesta
               </q-card-section>
             </q-card>
           </div>
