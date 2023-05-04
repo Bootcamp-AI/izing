@@ -11,7 +11,7 @@
           @click="leftDrawerOpen = !leftDrawerOpen"
           aria-label="Menu"
           icon="menu">
-          <q-tooltip>Menu</q-tooltip>
+          <q-tooltip>Menú</q-tooltip>
         </q-btn>
 
         <q-btn flat
@@ -20,7 +20,7 @@
           dense
           class="q-ml-sm"
           v-if="$q.screen.gt.xs">
-          <q-img src="/izing-logo_5_transparent.png"
+          <q-img src="/snof-logo.png"
             spinner-color="primary"
             style="height: 50px; width: 120px" />
           <!-- <q-toolbar-title
